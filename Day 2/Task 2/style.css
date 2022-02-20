@@ -1,0 +1,16 @@
+.rectangle
+{
+    float: left;
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+.inner_rectangle
+{
+    border: 2px solid;
+    height: 10px;
+    width: 250px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}

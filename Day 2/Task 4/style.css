@@ -1,0 +1,81 @@
+.header{
+    
+    background-color: blueviolet;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+
+    
+}
+.inner
+{
+    color:white;
+    margin-top: 60px;
+
+}
+.body{
+
+    margin-top: 0px;
+    height: 0px;
+}
+.footerleft{
+    background-color:blueviolet ;
+    width: 50%;
+    float: left;
+}
+.footerright{
+    background-color:blueviolet ;
+    width: 50%;
+    float: left;
+}
+
+.footerright-child {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    color: white;
+}
+
+.main
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+td,tr{
+    padding: 10px;
+    font-size: 20px;
+}
+
+table {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.teletext{
+    font-size:xx-large;
+    margin-left: 5px;
+    
+}
+
+.holiday{
+    margin-left: 300px;
+}
+.cheapholiday{
+    margin-left: 60px;
+}
+.allinclusive{
+    margin-left: 60px;
+}
+.lastminute{
+    margin-left: 60px;
+}
+.longhaul{
+    margin-left: 60px;
+}
+

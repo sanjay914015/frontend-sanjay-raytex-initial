@@ -1,0 +1,24 @@
+.container
+{
+    background-color: white;
+    float: left;
+    border: 2px solid;
+    height: 500px;
+    width: 450px;
+    object-fit: cover;
+}
+img
+{
+    height: 420px;
+    width: 370px;
+    margin: 40px;
+}
+.container1
+{
+    background-color: aquamarine;
+    text-align: center;
+    float: left;
+    border: 2px solid;
+    height: 500px;
+    width: 450px;
+}
