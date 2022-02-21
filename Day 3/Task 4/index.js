@@ -11,6 +11,11 @@ function authentication() {
     {
         document.getElementById("show").innerHTML = "Authentication True";
     }
+    else
+    {
+        document.getElementById("show").innerHTML = "Authentication Fail";
+      
+    }
 
 
 
