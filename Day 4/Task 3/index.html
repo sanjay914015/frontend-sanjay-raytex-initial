@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name : </label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Emial ID</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Contact NO:</label>
+          <input type="number" class="form-control" id="contact" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Address: </label>
+          <input type="test" class="form-control" id="address" aria-describedby="emailHelp">
+        </div>
+ <div class="row">
+
+   <div class="col-sm-6">
+
+    <h5 class="mb-3">Parmenent Address</h5>
+    <p>Enter permanent address</p>
+      
+     <div class="form-group">
+        <input type="text" class="form-control" placeholder="Address Line 1" id="pAddressLine1">
+     </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Address Line 2" id="pAddressLine2">
+      </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Landmark" id="pLandmark">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Zip Code" id="pZipcode">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="City" id="pCity">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="State" id="pState">
+       </div>
+
+       <div class="form-group">
+          <input type="text" class="form-control" placeholder="country" id="pCountry">
+        </div>
+   </div>
+   <div class="col-sm-6">
+
+
+   <h5 class="mb-3">Current Address</h5>
+
+       <div class="form-group">
+          <input type="checkbox" id="checkBox"  onclick="autoFilAddress()"> Same as permenent address
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Address Line 1" id="curAddressLine1">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Address Line 2" id="curAddressLine2">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Landmark" id="curLandmark">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Zip Code" id="curZipcode">
+       </div>
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="City" id="curCity">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="State" id="curState">
+       </div>
+
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="country" id="curCountry">
+       </div>
+
+   </div>
+   <div class="col-sm-4"></div>
+</div>
+<button type="button" class="btn btn-primary">Submit</button>
+
+</div>
+</form>
+<script src="index.js"></script>
+
+
+ 
+</body>
+</html>
