@@ -1,9 +1,9 @@
-function output()
+function contact_us()
 {
-    var username = document.getElementById("user").value;
-    var email = document.getElementById("email").value;
-    var contact = document.getElementById("contact").value;
-    var comment = document.getElementById("comm").value;
+    var cs_username = document.getElementById("csusername").value;
+    var cs_email = document.getElementById("csemail").value;
+    var cs_contact = document.getElementById("cscontact").value;
+    var cs_comment = document.getElementById("cscomment").value;
 
 
     console.log(username);
@@ -22,7 +22,7 @@ function authentication() {
     if( auth.user == usern && auth.pass == passw)
     {
         window.location.href = "C:\frontend\week 1\frontend-sanjay-raytex-initial\Day 3\Task 6\html\index.html" ;
-
+        console.log("Authentication True");
     }
     else
     {
